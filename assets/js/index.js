@@ -56,7 +56,7 @@ new Chart(ctx, {
     
     card.innerHTML = `
     <div class="card-header">
-    <img src="assets/images/bg-pattern-card.svg" alt="imagen header card" class="card-header">
+    <img src="assets/images/pokedex-header.jpg" alt="imagen header card" class="card-header">
 <div class="card-body">
     <img src="${img}" alt="imagen de pokedex" class="card-body-img">
 </div>
@@ -68,18 +68,7 @@ new Chart(ctx, {
 <p class="card-body-text">${experiencia}</p>
 </div>
 <div class="card-footer text-muted">
-    <div class="card-footer-social">
-        <h3>${ataque + 'k'}</h3>
-        <p>Ataque</p>
-    </div>
-    <div class="card-footer-social">
-        <h3>${especial + 'k'}</h3>
-        <p>Ataque Especial</p>
-    </div>
-    <div class="card-footer-social">
-        <h3>${defensa + 'k'}</h3>
-        <p>Defensa</p>
-    </div>
+<img src="assets/images/pokedex-footer.jpg" alt="imagen footer card" class="card-footer">
 </div>
 </div>
     `;
@@ -91,7 +80,18 @@ new Chart(ctx, {
   }
 }
 
-
+{/* <div class="card-footer-social">
+<h3>${ataque + 'k'}</h3>
+<p>Ataque</p>
+</div>
+<div class="card-footer-social">
+<h3>${especial + 'k'}</h3>
+<p>Ataque Especial</p>
+</div>
+<div class="card-footer-social">
+<h3>${defensa + 'k'}</h3>
+<p>Defensa</p>
+</div> */}
 
 
 
