@@ -63,9 +63,9 @@ new Chart(ctx, {
 <div class="card-body">
 <h1 class="card-body-title">
     ${nombre}
-    <span>${hp}</span>
+    <span>${hp + 'hp'}</span>
 </h1>
-<p class="card-body-text">${experiencia}</p>
+<p class="card-body-text">${experiencia + 'exp'}</p>
 </div>
 <div class="card-footer text-muted">
 <img src="assets/images/pokedex-footer.jpg" alt="imagen footer card" class="card-footer">
@@ -80,18 +80,7 @@ new Chart(ctx, {
   }
 }
 
-{/* <div class="card-footer-social">
-<h3>${ataque + 'k'}</h3>
-<p>Ataque</p>
-</div>
-<div class="card-footer-social">
-<h3>${especial + 'k'}</h3>
-<p>Ataque Especial</p>
-</div>
-<div class="card-footer-social">
-<h3>${defensa + 'k'}</h3>
-<p>Defensa</p>
-</div> */}
+
 
 
 
